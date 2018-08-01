@@ -1,0 +1,60 @@
+@for $i from 10 through 30 {
+    .u-fS#{$i} {
+        font-size: #{$i}px !important;;
+    }
+}
+
+// --------------------------
+// margin
+// --------------------------
+@for $i from 0 through 100 { 
+    .u-mT#{$i * 5} { // 5の倍数だけ
+        margin-top: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-mR#{$i * 5} { // 5の倍数だけ
+        margin-right: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-mB#{$i * 5} { // 5の倍数だけ
+        margin-bottom: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-mL#{$i * 5} { // 5の倍数だけ
+        margin-left: #{$i * 5}px !important;
+    }
+}
+
+
+// --------------------------
+// padding
+// --------------------------
+@for $i from 0 through 100 { 
+    .u-pT#{$i * 5} { // 5の倍数だけ
+        padding-top: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-pR#{$i * 5} { // 5の倍数だけ
+        padding-right: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-pB#{$i * 5} { // 5の倍数だけ
+        padding-bottom: #{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 100 { 
+    .u-pL#{$i * 5} { // 5の倍数だけ
+        padding-left: #{$i * 5}px !important;
+    }
+}
